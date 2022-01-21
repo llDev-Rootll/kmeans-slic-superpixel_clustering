@@ -18,9 +18,22 @@ We implement superpixel clustering in the following ways :
   <img src="assets/org.png" width="32%" />
   <img src="assets/rgbxy.png" width="32%" /> 
   <img src="assets/rgbxy_sp.png" width="32%" />
+  <p float="centre">
+  <em> a) Original Image b) RGBXY clustering : Pixelwise class plot c) RGBXY clustering : Superpixel plot</em>
+   </p>
+</p>
+ 
+
+ 4. Implementing the [SLIC algorithm](https://www.iro.umontreal.ca/~mignotte/IFT6150/Articles/SLIC_Superpixels.pdf) for improved superpixel generation.
+ 
+ 5. Enforcing connectivity by assigning small superpixels to its nearest cluster.
+ <p float="left">
+  <img src="assets/org.png" width="32%" />
+  <img src="assets/slic.png" width="32%" /> 
+  <img src="assets/slic_sp.png" width="32%" />
+  <p float="centre">
+  <em> a) Original Image b) SLIC clustering with enforced connectivity: Pixelwise class plot c) SLIC clustering with enforced connectivity : Superpixel plot</em>
+   </p>
 </p>
 
- 5. Implementing the [SLIC algorithm](https://www.iro.umontreal.ca/~mignotte/IFT6150/Articles/SLIC_Superpixels.pdf) for improved superpixel generation.
- 6. Enforcing connectivity by assigning small superpixels to its nearest cluster.
- 
- Further details and the code 
+ Further details and the code can be found [here](https://github.com/llDev-Rootll/kmeans-slic-superpixel_clustering/blob/master/KMeans_SLIC.pdf).
