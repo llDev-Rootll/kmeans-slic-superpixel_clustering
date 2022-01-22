@@ -15,9 +15,9 @@ We implement superpixel clustering in the following ways :
  3. Weighted KMeans algorithm with different weights for RGB and XY for each image.
 
 <p float="left">
-  <img src="assets/org.png" width="100" />
-  <img src="assets/rgbxy.png" width="100" /> 
-  <img src="assets/rgbxy_sp.png" width="100" />
+  <img src="assets/org.png"  />
+  <img src="assets/rgbxy.png"  /> 
+  <img src="assets/rgbxy_sp.png" />
 </p>
 
  5. Implementing the [SLIC algorithm](https://www.iro.umontreal.ca/~mignotte/IFT6150/Articles/SLIC_Superpixels.pdf) for improved superpixel generation.
